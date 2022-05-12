@@ -1,0 +1,7 @@
+ Console.Write("¬ведите продолжительность в часах = ");
+                while (!int.TryParse(Console.ReadLine(), out obj.prodoljitelnost))
+                {
+                    Console.Write("ќшибка ввода! ¬ведитее ещЄ раз = ");
+                }
+                mas[m] = obj.prodoljitelnost;
+                m++;

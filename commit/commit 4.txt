@@ -1,0 +1,7 @@
+ Console.Write("¬ведите количество туристов = ");
+             while (!int.TryParse(Console.ReadLine(), out obj.size_turist_group))
+            {
+                Console.Write("ќшибка ввода! ¬ведитее ещЄ раз = ");
+            }
+                mas[m] = obj.size_turist_group;
+                m++;

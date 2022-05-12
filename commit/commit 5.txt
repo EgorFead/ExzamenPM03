@@ -1,0 +1,8 @@
+ Console.Write("¬ведите цену = ");
+                while (!int.TryParse(Console.ReadLine(), out obj.price))
+                {
+
+                }
+                mas[m] = obj.price;
+                m++;
+            }

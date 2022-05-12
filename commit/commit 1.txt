@@ -1,0 +1,10 @@
+using System;
+using System.IO;
+namespace ConsoleApp2
+{
+    struct Trip
+    {
+        public int prodoljitelnost;
+        public int price;
+        public int size_turist_group;
+    }

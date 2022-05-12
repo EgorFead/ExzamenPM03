@@ -1,0 +1,14 @@
+class TouristicOperator
+    {
+        static void Main(string[] args)
+        {
+            Trip obj = new Trip();
+            int n, m = 0;
+            Console.Write("¬ведите размер массива = ");
+            while (!int.TryParse(Console.ReadLine(), out n))
+            {
+                Console.Write("ќшибка ввода! ¬ведитее ещЄ раз = ");
+            }
+            int[] mas = new int[n * 4];
+            for (int i = 0; i < n; i++)
+            {

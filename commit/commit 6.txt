@@ -1,0 +1,11 @@
+ StreamWriter y = new StreamWriter("File.txt");
+            m = 0;
+            for (int i = 0; i < n; i++)
+            {
+                y.WriteLine("Название: " + mas[0]); m++;
+                y.WriteLine("Издатель: " + mas[1]); m++;
+                y.WriteLine("Цена: " + mas[2]); m++;
+            }
+            y.Close();
+        }
+    }
